@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
         <title>Pelis App</title>
     </head>
     <body>
@@ -10,23 +12,23 @@
             <nav>
                 <h1>Pelis App</h1>
                 <ul>
-                    <li><a href = "#Agregar">Agregar Películas</a></li>                     
-                    <li><a href = "#Películas">Películas</a></li> 
-                    <li><a href = "#Favoritas">Favoritas</a></li> 
-                    <li><a href = "#Home">Home</a></li> 
+                    <li><a href="#agregar">Agregar Películas</a></li>                     
+                    <li><a href="#peliculas">Películas</a></li> 
+                    <li><a href="#favoritas">Favoritas</a></li> 
+                    <li><a href="#home">Home</a></li> 
                 </ul>
             </nav>
         </header>
         <main>
-            <section id = "Home">
-                <div>
+            <section id="home">
+                <div class="main-container">
                     <h2>Destacada</h2>
-                    <div>
+                    <div id="izquierda">
                         <h3>Titulo</h3>
                         <p>Alicia a través del espejo</p>
                         <h4>Género</h4>
                         <p>Fantasía</p>
-                        <div>
+                        <div id="descripcion-destacada">
                             <h4>Descripción</h4>
                             <p>Alicia, ahora una joven de 19 años de edad, regresa al País de las Maravillas para encontrar su verdadero destino y terminar con el gobierno de terror de la malvada reina Roja.</p>
                         </div>
@@ -34,49 +36,51 @@
                         <p>&#9734;&#9734;&#9734;&#9734;</p>
                     </div>
                     <div>
-                        <img src="https://expreso.co.cr/alicia/wp-content/uploads/2016/02/peli03.jpg" alt="Poster Alicia a través del espejo"/>
+                        <img class="poster" src="https://expreso.co.cr/alicia/wp-content/uploads/2016/02/peli03.jpg" alt="Poster Alicia a través del espejo"/>
                     </div>
                 </div>
             </section>
-            <section id="Favoritas">
+            <section id="favoritas">
                 <h2>Favoritas</h2>
-                <div>
+                <div class="favoritas-container">
+                <div class="favorita">
                     <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_r39Bu9Uc-uvvA-UKpKcn_vIUcAXV-OI1IgJYF2krW_GTdJrT" alt="Poster Alice in Wonderlan"/>
+                        <img class="poster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_r39Bu9Uc-uvvA-UKpKcn_vIUcAXV-OI1IgJYF2krW_GTdJrT" alt="Poster Alice in Wonderlan"/>
                     </div>
                     <h3>Título</h3>
                     <p>Alice in Wonderlan</p>
                     <h4>Género</h4>
                     <p>Fantasía</p>
                 </div>
-                <div>
+                <div class="favorita">
                     <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_r39Bu9Uc-uvvA-UKpKcn_vIUcAXV-OI1IgJYF2krW_GTdJrT" alt="Poster Alice in Wonderlan"/>
+                        <img class="poster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_r39Bu9Uc-uvvA-UKpKcn_vIUcAXV-OI1IgJYF2krW_GTdJrT" alt="Poster Alice in Wonderlan"/>
                     </div>
                     <h3>Título</h3>
                     <p>Alice in Wonderlan</p>
                     <h4>Género</h4>
                     <p>Fantasía</p>
                 </div>
-                <div>
+                <div class="favorita">
                     <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_r39Bu9Uc-uvvA-UKpKcn_vIUcAXV-OI1IgJYF2krW_GTdJrT" alt="Poster Alice in Wonderlan"/>
+                        <img class="poster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_r39Bu9Uc-uvvA-UKpKcn_vIUcAXV-OI1IgJYF2krW_GTdJrT" alt="Poster Alice in Wonderlan"/>
                     </div>
                     <h3>Título</h3>
                     <p>Alice in Wonderlan</p>
                     <h4>Género</h4>
                     <p>Fantasía</p>
                 </div>
+            </div> 
             </section>
-            <section id= "Películas">
-                <h2>Películas</h2>
+            <section id="peliculas">
+                <h2>Peliculas</h2>
                 <h3>Listas de Películas</h3>
-                <article>
-                    <div>
+                <article class="peliculas">
+                    <div class="peliculas_container">
                         <div>
-                            <img src= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEfQ9DmulHz49AuOfGdvjbKW9t76Q3FbEHrAYyK4p-KBNPw-0J" alt= "Poster de el cadaver de la novia"/>
+                            <img class="poster" src= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEfQ9DmulHz49AuOfGdvjbKW9t76Q3FbEHrAYyK4p-KBNPw-0J" alt= "Poster de el cadaver de la novia"/>
                         </div>
-                        <div>
+                        <div class="derecha">
                             <h3> Titulo</h3>
                             <p>El cadaver de la novía</p>
                             <h4>Género</h4>
@@ -85,23 +89,23 @@
                             <p>Alicia, ahora una joven de 19 años de edad, regresa al País de las Maravillas para encontrar su verdadero destino y terminar con el gobierno de terror de la malvada reina Roja.</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="peliculas_container">
                         <div>
                             <h4>Calificación</h4>
                             <p>&#9734;&#9734;&#9734;&#9734;&#9734;</p>
                         </div>
-                        <div>
+                        <div class="peliculas_botones">
                             <button>Editar</button>
                             <button>Eliminar</button>
                         </div>
                     </div>
                 </article>
-                <article>
-                    <div>
+                <article class="peliculas">
+                    <div class="peliculas_container">
                         <div>
-                            <img src= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEfQ9DmulHz49AuOfGdvjbKW9t76Q3FbEHrAYyK4p-KBNPw-0J" alt= "Poster de el cadaver de la novia"/>
+                            <img class="poster" src= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEfQ9DmulHz49AuOfGdvjbKW9t76Q3FbEHrAYyK4p-KBNPw-0J" alt= "Poster de el cadaver de la novia"/>
                         </div>
-                        <div>
+                        <div class="derecha">
                             <h3> Titulo</h3>
                             <p>El cadaver de la novía</p>
                             <h4>Género</h4>
@@ -110,23 +114,23 @@
                             <p>Alicia, ahora una joven de 19 años de edad, regresa al País de las Maravillas para encontrar su verdadero destino y terminar con el gobierno de terror de la malvada reina Roja.</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="peliculas_container">
                         <div>
                             <h4>Calificación</h4>
                             <p>&#9734;&#9734;&#9734;&#9734;&#9734;</p>
                         </div>
-                        <div>
+                        <div class="peliculas_botones">
                             <button>Editar</button>
                             <button>Eliminar</button>
                         </div>
                     </div>
                 </article>
-                <article>
-                    <div>
+                <article class="peliculas">
+                    <div class="peliculas_container">
                         <div>
-                            <img src= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEfQ9DmulHz49AuOfGdvjbKW9t76Q3FbEHrAYyK4p-KBNPw-0J" alt= "Poster de el cadaver de la novia"/>
+                            <img class="poster" src= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEfQ9DmulHz49AuOfGdvjbKW9t76Q3FbEHrAYyK4p-KBNPw-0J" alt= "Poster de el cadaver de la novia"/>
                         </div>
-                        <div>
+                        <div class="derecha"> 
                             <h3> Titulo</h3>
                             <p>El cadaver de la novía</p>
                             <h4>Género</h4>
@@ -135,30 +139,31 @@
                             <p>Alicia, ahora una joven de 19 años de edad, regresa al País de las Maravillas para encontrar su verdadero destino y terminar con el gobierno de terror de la malvada reina Roja.</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="peliculas_container">
                         <div>
                             <h4>Calificación</h4>
                             <p>&#9734;&#9734;&#9734;&#9734;&#9734;</p>
                         </div>
-                        <div>
+                        <div class="peliculas_botones">
                             <button>Editar</button>
                             <button>Eliminar</button>
                         </div>
                     </div>
                 </article>
             </section>
-            <section id = "Agregar"></sectionid></section>
-            <form>
+            <section id ="agregar"></sectionid></section>
+            <form id="formulario">
                 <label for = "Titulo">Titulo</label>
-                <input type = "text" name= "Titulo"/>
+                <input class="info" type = "text" name= "Titulo"/>
                 <label for = "Genero">Genero</label>
-                <input type = "text" name= "Genero"/>
+                <input class="info" type = "text" name= "Genero"/>
                 <label for = "descripcion">Descripción</label>
                 <textarea name="Descripcion"></textarea>
                 <label for = "Calificación">Calificación</label>
-                <input type = "text" name= "Calificación"/>
-                <button type="submit">Enviar</button>
+                <input class="info" type = "text" name= "Calificación"/>
+                <button id="enviar" type="submit">Enviar</button>
             </form>
         </main>
+        <footer>Pelis App 2020</footer>
     </body>
 </html>
